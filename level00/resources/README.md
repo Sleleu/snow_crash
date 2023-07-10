@@ -1,4 +1,4 @@
-En cherchant comment lister les différents utilisateurs sous un système linux : https://www.cyberciti.biz/faq/linux-list-users-command/#:~:text=How%20do%20I%20list%20users,command%2Fegrep%20command%20and%20more.
+En cherchant comment lister les différents utilisateurs sous un système linux : https://www.cyberciti.biz/faq/linux-list-users-command
 
 On tombe sur ça : 
 
