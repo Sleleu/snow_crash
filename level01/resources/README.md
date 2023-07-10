@@ -26,7 +26,7 @@ Evidemment 🙂
 
 Après un petit passage sur dcode, je trouve pas grand chose d'aussi simple que sur le level00. Je tente de trouver l'origine de ce mot de passe, jusqu'à tomber sur ce site : https://www.tunnelsup.com/hash-analyzer/ qui m'indique que c'est probablement un chiffrement DES ou 3DES.
 
-Le chiffrement DES est un algorithme de chiffrement symétrique, utilisant des clés de 65 bits (ce qui est peu). Il est aujourd'hui totalement cassable du fait de la faible taille de sa clé. Le 3DES fait surement référence au triple DES, qui augmente la sécurité du chiffrement mais n'est toujours pas recommandé du fait de ses faibles performances.
+Le chiffrement DES est un algorithme de chiffrement symétrique, utilisant des clés de 56 bits. Il est aujourd'hui totalement cassable du fait de la faible taille de sa clé. Le 3DES fait surement référence au triple DES, qui augmente la sécurité du chiffrement mais n'est toujours pas recommandé du fait de ses faibles performances.
 
 Bon on peut essayer de péter ça avec un coup de JohnTheRipper : 
 
