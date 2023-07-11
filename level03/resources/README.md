@@ -1,4 +1,4 @@
-Un fichier éxecutable est présent dans le home, et affiche ce texte :
+Un fichier exécutable est présent dans le home, et affiche ce texte :
 
 ```
 level03@SnowCrash:~$ ./level03 
@@ -12,8 +12,8 @@ level03@SnowCrash:~$ ls -l level03
 -rwsr-sr-x 1 flag03 level03 8627 Mar  5  2016 level03
 ```
 
-le 's' placé à la position d'éxecution du propriétaire est un **setuid bit**. Cela signifie que lorsque ce fichier est executé, il s'executera avec les permissions du propriétaire du fichier, ce qui tombe bien puisque l'exécution est autorisée pour tout le monde.
-Ça semble être une exploitation basique, surtout jettant un premier coup d'oeil à l'executable avec `strings`, on trouve ceci :
+Le 's' placé à la position d’exécution du propriétaire est un setuid bit. Cela signifie que lorsque ce fichier est exécuté, il s’exécutera avec les permissions du propriétaire du fichier, ce qui tombe bien puisque l'exécution est autorisée pour tout le monde.
+Ça semble être une exploitation basique, surtout en jetant un premier coup d’œil à l’exécutable avec strings, on trouve ceci :
 
 ```
 level03@SnowCrash:~$ strings level03 
