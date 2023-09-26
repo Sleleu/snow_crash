@@ -51,7 +51,7 @@ If we fulfill this condition, we can proceed to the `ft_des` function, which lik
 
 So, we can try to rewrite the value of EAX after its passage through `getuid()`. Oh well, it's already the flag... :
 
-```
+```shell
 Breakpoint 2, 0x0804859a in main ()
 (gdb) set $eax = 4242
 (gdb) s
