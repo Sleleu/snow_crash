@@ -32,7 +32,7 @@ sub n {
 n(t(param("x"), param("y")));
 ```
 
-It's a lot of code for not much in the end. These two lines respectively set the variable x to uppercase and remove spaces:
+It's a lot of code for not much in the end. These two lines respectively set the variable x to uppercase and remove all after the first space:
 
 ```
   $xx =~ tr/a-z/A-Z/;
